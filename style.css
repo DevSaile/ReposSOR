@@ -1,0 +1,812 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+*{
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.contenido1 {
+
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1500px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    display: none;
+    margin-left: 1%;
+    margin-top: 20px;
+    padding: 30px;
+    overflow: hidden; /* Evita que el contenedor colapse debido al float */
+    text-align: justify;
+    background-color: #FFB6C1;
+
+    
+}
+
+.conte1cabecera {
+
+  margin-left: -30px;
+  margin-top: -30px;
+  background-color: greenyellow;
+  height: 80px;
+  width: 1500px;
+
+}
+
+.conte1cabeceraH2 {
+
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 140px;
+  line-height: 80px;
+  text-align: center;
+
+}
+
+.contenido2 {
+
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1500px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    display: none;
+    margin-left: 1%;
+    margin-top: 20px;
+    padding: 10px;
+    overflow: hidden; /* Evita que el contenedor colapse debido al float */
+    text-align: justify;
+    background-color: #6495ED;
+}
+
+.conte2cabecera {
+
+  margin-left: -10px;
+  margin-top: -15px;
+  background-color: greenyellow;
+  height: 90px;
+  width: 1500px;
+
+}
+
+.conte2cabeceraH2 {
+
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 140px;
+  line-height: 90px;
+  text-align: center;
+
+}
+
+.contenido3 {
+
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1500px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    display: none;
+    margin-left: 1%;
+    margin-top: 20px;
+    padding: 30px;
+    overflow: hidden; /* Evita que el contenedor colapse debido al float */
+    text-align: justify;
+    background-color: #008B8B;
+    
+}
+
+.contenido4 {
+
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1500px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    display: none;
+    margin-left: 1%;
+    margin-top: 20px;
+    padding: 30px;
+    overflow: hidden; /* Evita que el contenedor colapse debido al float */
+    text-align: justify;
+    background-color: #E6E6FA;
+    
+}
+
+.contenido5 {
+
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1500px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    display: none;
+    margin-left: 1%;
+    margin-top: 20px;
+    padding: 30px;
+    overflow: hidden; /* Evita que el contenedor colapse debido al float */
+    text-align: justify;
+}
+
+.contenido6 {
+
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1500px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    display: none;
+    margin-left: 1%;
+    margin-top: 20px;
+    padding: 30px;
+    overflow: hidden; /* Evita que el contenedor colapse debido al float */
+    text-align: justify;
+    background-color: #9370D8;
+    
+}
+
+.contenido7 {
+
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1500px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    display: none;
+    margin-left: 1%;
+    margin-top: 20px;
+    padding: 30px;
+    overflow: hidden; /* Evita que el contenedor colapse debido al float */
+    text-align: justify;
+    background-color: #48D1CC;
+}
+
+.contenido8 {
+
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 1500px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+  display: none;
+  margin-left: 1%;
+  margin-top: 20px;
+  padding: 30px;
+  text-align: justify;
+  overflow: hidden; /* Evita que el contenedor colapse debido al float */
+  text-align: justify;
+  background-color: #E0FFFF;
+
+}
+
+.cabecera {
+
+    background-color: #007BFF;
+    height: 80px;
+
+}
+
+.h2Header {
+
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 140px;
+    line-height: 80px;
+}
+
+.sidebar {
+
+    position: fixed;
+    left: -290px;
+    width: 290px;
+    height: 100%;
+    background: #042331;
+    transition: all .5s ease;
+}
+
+.sidebar header {
+    
+    font-size: 22px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #063146;
+    user-select: none;
+    margin-left: -80px;
+}
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 54px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  transition: .4s;
+}
+ul li:hover a{
+
+  padding-left: 50px;
+  background-color: white;
+  color: black;
+
+}
+
+
+.sidebar ul a i{
+  margin-right: 16px;
+}
+#check{
+  display: none;
+}
+
+
+label #btn:hover {
+
+  background-color: white;
+  color: black;
+
+}
+
+label #cancel:hover {
+
+  background-color: white;
+  color: black;
+  
+}
+
+label #btn{
+  left: 40px;
+  top: 18px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all .5s;
+  position: absolute;
+  background: #042331;
+  border-radius: 3px;
+  cursor: pointer;
+}
+label #cancel{
+
+  position: fixed;
+  z-index: 1111;
+  left: -195px;
+  top: 96px;
+  font-size: 30px;
+  color: white;
+  padding: 4px 9px;
+  transition: all .5s ease;
+  background: #042331;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+#check:checked ~ .sidebar{
+  
+  left: 0;
+}
+#check:checked ~ label #btn{
+  left: 290px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel{
+  left: 220px; /*195*/
+}
+
+#check:checked ~ section{
+    margin-left: 290px;
+}
+
+#check:checked ~ .objetivo{
+  margin-left: 290px;
+}
+
+
+section{
+
+    margin-top: -70px;
+    background: url(imagenes/portada2.jpg) no-repeat;
+    background-position: center;
+    background-size: 800px auto;
+    height: 100vh;
+    transition: all .5s;
+
+}
+
+/*INICIA TODO CON RESPECTO AL CONTENIDO1*/
+
+.proba1 {
+
+  padding: 20px;
+  margin-left: 50px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+  
+
+}
+
+.CulturaHumanos {
+
+  padding: 20px;
+  margin-left: 50px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.EstadoDemocracia{
+
+  padding: 20px;
+  margin-top: -50px;
+  margin-left: 50px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.GobernaInstitu {
+
+  padding: 20px;
+  margin-top: 70px;
+  margin-left: 50px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.paradigConseso {
+
+  padding: 20px;
+  margin-top: 5%;
+  margin-left: 50px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.conte1conclu {
+
+  padding: 20px;
+  margin-top: -40%;
+  margin-left: 50px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+#color1 { /*ESTO DE AQUI ES PARA DARLE COLOR A CADA DIV DEL CONTENIDO1*/
+
+  background-color: white;
+}
+
+/*AQUI TERMINA TODO CON RESPECTO AL CONTEnido 1*/
+
+
+/*Iniciamos para el contenido 2*/
+
+.intro2 {
+
+  margin-left: 2%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+  
+}
+
+.CartaHombreMujer {
+
+  margin-left: 2%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 790px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+  
+}
+
+.ONUinfo {
+
+  margin-left: 2%;
+  margin-top: -90%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.conte2conclu {
+
+  margin-left: 2%;
+  margin-top: -38%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+#color2 {
+
+  background-color: white;
+}
+
+/*AQUI TERMINA EL CONTENIDO 2*/
+
+
+/*Aqui inicia el contenido 3*/
+
+.intro3 {
+
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 1430px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+#color3 {
+
+  background-color: white;
+
+}
+
+.img3 {
+
+  margin-left: 35%;
+
+}
+
+/*Aqui termina el contenido 3*/
+
+/*COMIENZA EL CONTENIDO 4*/
+
+.intro4 {
+
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.UNESCOinterferir {
+
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.musica {
+
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.ambiente {
+  
+  margin-top: 4%;
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.educacion {
+
+  margin-top: -7%;
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+  
+}
+
+.pobreza {
+
+  margin-top: 4%;
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+#color4 {
+
+  background-color: white;
+
+}
+
+/*termina el contenido4*/
+
+
+
+
+/*inicia el contendio 6*/
+
+
+.intro6 {
+
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.posesion {
+
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.infidelidad {
+
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.concluconte6 {
+
+  margin-top: -60%;
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+#color6 {
+
+  background-color: white;
+
+}
+
+/*Termia el contenido 6*/
+
+
+/*Inicia el contenido 7*/
+
+.intro7 {
+
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 800px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+  
+}
+
+.acciones {
+  margin-left: 2%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+  
+}
+
+#color7 {
+
+  background-color: white;
+}
+
+/*FIN DEL CONTENIDO 7*/
+
+
+/*Inicion del contenido 8*/
+
+.resumen {
+
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 1440px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+.cuadro {
+
+  margin-top: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 1440px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+.cuadroimg {
+
+  margin-left: 19%;
+}
+
+.jistory {
+
+  margin-top: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 1440px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+}
+.historyimg {
+
+  margin-left: 9%;
+}
+
+#color8 {
+
+  background-color: white;
+}
+
+/*FIN DEL CONTENIDO 8*/
+
+/*Inicio del contenido 5*/
+
+.queson {
+
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.necesarias {
+
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.desmeritar {
+
+  margin-top: 4%;
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.igualdad {
+
+  margin-top: -9%;
+  margin-left: 5%;
+  padding: 20px;
+  float: left; /* Coloca los elementos uno al lado del otro */
+  width: 600px;
+  height: auto;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+/*FIN DEL TEMA 5*/
+
+.objetivo {
+
+  margin-top: 2%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+
+}
